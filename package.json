@@ -1,0 +1,18 @@
+{
+  "name": "Rawebsite",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "bootstrap": "^3.3.5",
+    "connect-mongo": "latest",
+    "express": "~4.0.0",
+    "express-session": "latest",
+    "jasmine-node": "^1.14.5",
+    "mongoose": "latest",
+    "request": "^2.65.0"
+  }
+}

@@ -1,0 +1,47 @@
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+	color: white;
+	background-size: cover;
+}
+
+#header{
+	background: gray;
+	padding-top: 8px;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	padding-right: 15px;
+}
+
+ul li {
+	display: inline;
+	padding-right: 5px;
+}
+
+#rightholder {
+	float: right;
+}
+
+#pic {
+	display: inline;
+}
+
+h1 {
+	color: black;
+}
+
+h3 {
+	color: black;
+}
+
+#loginstuff {
+	float: right;
+}
+
+input {
+	color: black;
+}

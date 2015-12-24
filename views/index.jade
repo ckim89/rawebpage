@@ -1,0 +1,28 @@
+doctype html
+html
+	head
+		title RA Webpage
+		link(rel='stylesheet', type='text/css', href='/bootstrap/dist/css/bootstrap.css')
+		link(rel='stylesheet', type='text/css', href='/bootstrap/dist/css/bootstrap-responsive.min.css')
+		link(rel='stylesheet', href='/css/style.css', type="text/css")
+	body
+		#header 
+			ul
+				li: button.btn(onclick="location.href='/numbers'") Phone Numbers
+				li: button.btn(onclick="location.href='http://web.jhu.edu/reslife'") About Us
+				li: #loginstuff
+					ul.log
+						form(action='/login', method='post')
+							li: input(type='text', name='username', placeholder='Email address')
+							li: input(type='password', name='password', placeholder='Password')
+							li: input(type='submit',class='btn btn-success', value='Login')
+
+		h1 Welcome to Duty!
+		#calandpic
+			iframe#cal(src="https://calendar.google.com/calendar/embed?src=00kh2nbvu7gtu4d9p3c42odsik%40group.calendar.google.com&ctz=America/New_York", stype="border: 0", width="800", height="600", frameborder="0", scrolling="no")
+			#rightholder
+				#holds
+				img#pic.img-responsive(src='img/squad.JPG', height='300', width='450')
+		script(src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
+		script(src='/bootstrap/js/bootstrap.min.js')
+		
